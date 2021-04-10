@@ -1,0 +1,40 @@
+main{
+    height: auto;
+}
+
+
+main>h2{
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: 2.5em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #6e513b;
+}
+main>div{
+    width: 17vw; height: 45vh;
+    float: left;
+    margin-left: 2vw;
+}
+main>div>img{
+    width: 14vw;
+    height: 14vw;
+    margin-left: 1.5vw;
+
+}
+main>div>h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+main>div>p{
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+
+
+

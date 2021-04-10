@@ -1,0 +1,50 @@
+main>p>em{
+    font-style: italic;
+    font-weight: bold;
+}
+
+main>img{
+  position: absolute;
+  right: 1vw;
+  bottom: 1vh;
+  width: 40vw;
+  height: 40vh;
+}
+#pizzaTime{
+border: 2px dotted #111111;
+width: 30vw;
+height: 25vh;
+margin-left: 1vw;
+}
+#pizzaTime>form>h1{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+#pizzaTime>form>input{
+  width: 12vw;
+  height: 3vh;
+  border: 1px solid #222222;
+  margin-left: 9vw;
+  margin-top: 1.5vh;
+}
+#pizzaTime>form>div>label{
+  font-family: sans-serif;
+}
+#pizzaTime>form>div{
+  text-align: center;
+  margin-top: 1vh;
+}
+#pizzaTime>form>div>select{
+font-size: 1.1em;
+}
+#pizzaTime>form>button{
+  font-size: 1.5em;
+  background-color: #111111;
+  color: #eeeeee;
+  border-radius: 15px;
+  width: 5vw;
+  margin-left: 12.5vw;
+  margin-top: 1vh;
+}

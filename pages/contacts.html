@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/contacts.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="../images/iu-removebg-preview.png" alt="logo">
+        </div>
+        <div id="title">
+          <h1>AL FORNO</h1>
+        </div>
+        <div class="logo">
+          <img src="../images/iu-removebg-preview.png" alt="logo">
+        </div>
+  </header>
+    <nav>
+        <ul class="clearfix">
+          <li><a href="../pages/index.html">НАЧАЛО</a></li>
+          <li><a href="../pages/aboutUs.html">ЗА НАС</a></li>
+          <li>
+            <a href="../pages/menu.html">МЕНЮ</a>
+            <ul class="dropDownMenu">
+                <li><a href="../pages/menu.html#pizza">ПИЦИ</a></li>
+                <li><a href="../pages/menu.html#garnish">ГАРНИТУРИ</a></li>
+                <li class="noBorder"><a href="../pages/menu.html#desserts">ДЕСЕРТИ</a></li>
+            </ul>
+          </li>
+          <li><a href="../pages/gallery.html">ГАЛЕРИЯ</a></li>
+          <li><a class="noBorder" href="../pages/contacts.html">КОНТАКТИ</a></li>
+        </ul>
+      </nav>
+    <main>
+     <h1>Контакти</h1>
+     <div class="info">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1682.0742642996158!2d23.34638071201862!3d42.689921610474045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa859992186767%3A0x6e91a2ecf3b18f6e!2zMTEyNCDQntCx0L7RgNC40YnQtSwg0KHQvtGE0LjRjw!5e1!3m2!1sbg!2sbg!4v1591194584627!5m2!1sbg!2sbg"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <p>
+            <strong>Адрес:</strong> <i>гр. София, ж.к. Квартал, ул. Улица</i>
+            <strong>Тел. номер:</strong> <i>+359010110100101</i>
+            <strong>Имейл адрес:</strong> <i>alforno@gmail.com</i>
+            <strong>Работно време:</strong> <i>Понеделник - Неделя, 11:00 - 22:00</i>
+        </p>
+     </div>
+     <form action="send.php" method="POST">
+         <label for="firstName">Име: <strong class="required">*</strong><input required type="text" name="firstName" id="fName" autofocus></label><br>
+         <label for="emailAdress">Имейл: <strong class="required">*</strong> <input required type="email" name="emailAdress" id="emailAdress" placeholder="example@gmail.com"></label><br>
+         <label for="phoneNumber">Тел. номер: <input placeholder="+359" type="tel" name="phoneNumber" id="phoneNum"></label><br>
+         <textarea placeholder="Пишете ни" name="comment" id="tArea" cols="45" rows="15" ></textarea>
+         <button>ИЗПРАТИ</button>
+     </form>
+    </main>
+    <footer>
+        <h1>&copy By Ivan Dimitrov 12z №7</h1>
+        <div class="partners">
+          <h2>Партньори</h2>
+        <ul>
+            <li><a href="#">hrana.bg</a></li>
+            <li><a href="#">mebeli.com</a></li>
+            <li><a href="#">youtube.com</a></li>
+        </ul>
+        </div>
+    </footer>
+</body>
+</html>

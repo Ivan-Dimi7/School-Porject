@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/pizza-4912871_960_720.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <title>AL FORNO</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
+<body>
+    <header>
+          <div class="logo">
+            <img src="../images/iu-removebg-preview.png" alt="logo">
+          </div>
+          <div id="title">
+            <h1>AL FORNO</h1>
+          </div>
+          <div class="logo">
+            <img src="../images/iu-removebg-preview.png" alt="logo">
+          </div>
+    </header>
+    <nav>
+        <ul class="clearfix">
+          <li><a href="../pages/index.html">НАЧАЛО</a></li>
+          <li><a href="../pages/aboutUs.html">ЗА НАС</a></li>
+          <li>
+            <a href="../pages/menu.html">МЕНЮ</a>
+            <ul class="dropDownMenu">
+                <li><a href="../pages/menu.html#pizza">ПИЦИ</a></li>
+                <li><a href="../pages/menu.html#garnish">ГАРНИТУРИ</a></li>
+                <li><a class="noBorder" href="../pages/menu.html#desserts">ДЕСЕРТИ</a></li>
+            </ul>
+          </li>
+          <li><a href="../pages/gallery.html">ГАЛЕРИЯ</a></li>
+          <li><a class="noBorder" href="../pages/contacts.html">КОНТАКТИ</a></li>
+        </ul>
+      </nav>
+    <main>
+        <h1>Добре Дошли!</h1>
+        <p>
+            Ние сме ресторант <em>"AL FORNO"</em> и това е нашият сайт, в който можете да видите каква храна предлагаме и къде можете да ни намерите. Приготвяме първокласна италианска пица на ниска цена! Скоро получихме нашата трета звезда и ви благодарим, защото това нямаше да е възможно без нашите клиенти! Ако ни посетите ви гарантираме, че ще останете доволни!
+        </p>
+        <div id="pizzaTime">
+            <form action="">
+              <h1>Разбери какъв човек си според любимата ти пица</h1>
+              <input id="name" placeholder="Въведете името си" type="text"><br>
+              <div>
+                <label for="pici">Избери пица:</label>
+              <select name="pici" id="pici">
+                <option id="p1" value="p1">Маргарита</option>
+                <option id="p2" value="p2">Пеперони</option>
+                <option id="p3" value="p3">Вегетарианска</option>
+                <option id="p4" value="p4">Хавайска</option>
+                <option id="p5" value="p5">Карбонара</option>
+                <option id="p6" value="p6">Капричоза</option>
+                <option id="p7" value="p7">Барбекю</option>
+                <option id="p8" value="p8">Тон</option>
+                <option id="p9" value="p9">Риверони</option>
+                <option id="p10" value="p10">Наполи</option>
+                <option id="p11" value="p11">Дяволска</option>
+                <option id="p12" value="p12">Американо</option>
+              </select>
+              </div>
+              <button onclick="pizzaTime()">ОК</button>
+            </form>
+        </div>
+      <img src="../images/pizza-1424974_960_720.webp" alt="">
+    </main>
+    <footer>
+        <h1>&copy By Ivan Dimitrov 12z №7</h1>
+        <div class="partners">
+          <h2>Партньори</h2>
+        <ul>
+            <li><a href="#">hrana.bg</a></li>
+            <li><a href="#">mebeli.com</a></li>
+            <li><a href="#">youtube.com</a></li>
+        </ul>
+        </div>
+    </footer>
+    <script>
+      function pizzaTime(){
+        var choice = document.getElementById('pici').value;
+        var name = document.getElementById('name').value;
+        switch(choice){
+          case 'p1': alert(name + ", Вие сте нормални"); break;
+          case 'p2': alert(name + ", Вие сте самотен човек"); break;
+          case 'p3': alert(name + ", Вие сте любител на животни"); break;
+          case 'p4': alert(name + ", Вие не сте харесвани от обществото"); break;
+          case 'p5': alert(name + ", Вие сте слаби духом"); break;
+          case 'p6': alert(name + ", Вие сте странен човек"); break;
+          case 'p7': alert(name + ", Вие сте силен човек"); break;
+          case 'p8': alert(name + ", Вие обичате морето"); break;
+          case 'p9': alert(name + ", Вие не можете да си връзвате обувките"); break;
+          case 'p10': alert(name + ", Вие ще иамте много пари"); break;
+          case 'p11': alert(name + ", Вие сте дявол по душа"); break;
+          case 'p12': alert(name + ", Вие сте дебел човек"); break;
+          default: alert("Pizza Time"); 
+
+        }
+      }
+    </script>
+</body>
+</html>

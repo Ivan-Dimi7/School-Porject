@@ -1,0 +1,27 @@
+main>ul>li>img{
+    width: 15vw; height: 20vh;
+    border: 2px solid #555;
+    float: left;
+    margin-left: 0.5vw;
+    margin-top: 2vh;
+}
+#bigPic{
+    width: 50vw;
+    height: 44vh;
+    position: absolute;
+    left: 15vw;
+    top: 24vh;
+    border: 2px solid #222222;
+}
+#bigPic:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+main>ul>li>img{
+    border: 3px solid #222222;
+}
+main>ul>li>img:hover{
+    cursor: pointer;
+    border: 3px solid #dddddd;
+}
+
